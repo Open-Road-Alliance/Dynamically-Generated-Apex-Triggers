@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SObject_Name__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>Use this to identify the standard / custom object to associate with the trigger. Make sure to use the API name.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this to identify the standard / custom object to associate with the trigger. Make sure to use the API name.</inlineHelpText>
+    <label>SObject Name</label>
+    <length>100</length>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

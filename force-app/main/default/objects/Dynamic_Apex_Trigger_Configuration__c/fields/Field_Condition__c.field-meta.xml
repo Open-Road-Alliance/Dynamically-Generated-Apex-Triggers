@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Condition__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>Use this to identify the value on the previously identified field that will cause the trigger to run. The script will look for an exact match.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Use this to identify the value on the previously identified field that will cause the trigger to run. The script will look for an exact match.</inlineHelpText>
+    <label>Field Condition</label>
+    <length>100</length>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
