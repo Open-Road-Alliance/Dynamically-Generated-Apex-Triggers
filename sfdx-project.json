@@ -1,30 +1,36 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true,
-      "dependencies": [
+    "packageDirectories": [
         {
-          "package": "Zippex",
-          "versionNumber": "1.0.0.1"
-        },
-        {
-          "package": "Apex-MDAPI",
-          "versionNumber": "1.0.0.3"
-        },
-        {
-          "package": "TestDataFactory",
-          "versionNumber": "1.0.0.1"
+            "path": "force-app",
+            "default": true,
+            "dependencies": [
+                {
+                    "package": "Zippex",
+                    "versionNumber": "1.0.0.1"
+                },
+                {
+                    "package": "Apex-MDAPI",
+                    "versionNumber": "1.0.0.3"
+                },
+                {
+                    "package": "TestDataFactory",
+                    "versionNumber": "1.0.0.1"
+                }
+            ],
+            "package": "DynamicApexTriggers",
+            "versionName": "ver 1.0",
+            "versionNumber": "1.0.0.NEXT"
         }
-      ]
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "51.0",
+    "packageAliases": {
+        "Zippex": "0Ho4T000000TN9JSAW",
+        "Apex-MDAPI": "0Ho4T000000TN9OSAW",
+        "TestDataFactory": "0Ho4T000000TN9TSAW",
+        "DynamicApexTriggers": "0Ho4T000000TN9YSAW",
+        "DynamicApexTriggers@1.0.0-1": "04t4T000001ZFiGQAW",
+        "DynamicApexTriggers@1.0.0-2": "04t4T000001ZFiLQAW"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "51.0",
-  "packageAliases": {
-    "Zippex": "0Ho4T000000TN9JSAW",
-    "Apex-MDAPI": "0Ho4T000000TN9OSAW",
-    "TestDataFactory": "0Ho4T000000TN9TSAW"
-  }
 }

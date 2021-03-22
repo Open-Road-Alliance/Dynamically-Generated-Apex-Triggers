@@ -35,7 +35,7 @@ public with sharing class ApexTriggerBuilder {
 
     @future(callout=true)
     public static void buildTrigger(ID recordId) {
-        Dynamic_Apex_Trigger_Configuration__c record = recordId == null ? new Dynamic_Apex_Trigger_Configuration__c() : [SELECT SObject_Name__c, API_Version_Number__c, Async_Request_ID__c 
+        Dynamic_Apex_Trigger_Configuration__c record = recordId == null ? new Dynamic_Apex_Trigger_Configuration__c() : [SELECT SObject_Name__c, API_Version_Number__c 
                     FROM Dynamic_Apex_Trigger_Configuration__c
                     WHERE Id =: recordId
                     WITH SECURITY_ENFORCED];
@@ -70,7 +70,7 @@ public with sharing class ApexTriggerBuilder {
             records.add(record);
 
             SObjectAccessDecision decision = Security.stripInaccessible(AccessType.UPDATABLE, records);
-            
+
             update decision.getRecords();
 
         }
